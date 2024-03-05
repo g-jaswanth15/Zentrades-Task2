@@ -14,7 +14,7 @@ document.querySelector("#submit").addEventListener("click",()=>{
     if(expression.test(mailid) && pass_upper.test(pass) && pass_number.test(pass) && pass_char.test(pass)){
         if(pass==="ZenTradesTest@123"){
             alert("Signed Successfully");
-            document.location.href = "index1.html"
+            document.location.href = "dashboard.html"
         }
         else{
             alert("wrong password")
